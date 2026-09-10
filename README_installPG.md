@@ -39,14 +39,14 @@ Plaintext
 ATTENTION: INSTALLATION DIRECTORY CREATED
 ============================================================
 Directory for installation packages was created at:
-  /home/username/install/installPostgre
+  /home/username/install/installPostgre or ~/install/installPostgre/
 
 Please download the required PostgreSQL release for BAS / 1C from:
   https://dl.bas-soft.eu
   (or https://releases.1c.eu)
 
 Place the downloaded .tar.bz2 package file into:
-  /home/username/install/installPostgre/
+  /home/username/install/installPostgre/ or ~/install/installPostgre/
 
 After downloading the file, please run this script again.
 ============================================================
@@ -106,9 +106,10 @@ What the Script Does Step-by-Step
     User Provisioning: Prompts for passwords to secure the postgres superuser and creates the dedicated bafadmin administrator role.
 
     Package Protection: Places all installed PostgreSQL packages on apt-mark hold to prevent inadvertent upgrades during routine apt upgrade operations.
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Українська
-Огляд
+
 
 Цей Bash-скрипт автоматизує процес встановлення, налаштування продуктивності та безпеки PostgreSQL (версій 14–18+) зі спеціальними патчами та оптимізаціями для систем BAS / 1C.
 
@@ -145,14 +146,14 @@ Plaintext
 УВАГА: СТВОРЕНО ДИРЕКТОРІЮ ДЛЯ ВСТАНОВЛЕННЯ
 ============================================================
 Папку для пакетів встановлення створено за шляхом:
-  /home/username/install/installPostgre
+  /home/username/install/installPostgre або ~/install/installPostgre/
 
 Будь ласка, завантажте необхідний реліз PostgreSQL для BAS / 1C з:
   https://dl.bas-soft.eu
   (або https://releases.1c.eu)
 
 Помістіть завантажений файл архіву .tar.bz2 у папку:
-  /home/username/install/installPostgre/
+  /home/username/install/installPostgre/ або ~/install/installPostgre/
 
 Після завантаження файла запустіть цей скрипт знову.
 ============================================================
