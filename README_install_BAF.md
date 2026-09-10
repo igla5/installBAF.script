@@ -19,13 +19,12 @@ The installer then uses the locally provided package to perform the installation
 
 The installer supports:
 
-- Ubuntu 22.04
+- Ubuntu 22.04 (you need choose manual TimeZone ! Europe/Kiev)
 - Ubuntu 24.04
 - Ubuntu 26.04
 - Linux Mint 21.x
-- Linux Mint 22.x
-- Debian 11
-- Debian 12
+- Linux Mint 22.x                    
+- Debian 12       (you need choose manual TimeZone ! Europe/Kiev)
 - Debian 13 (Trixie)
 
 Architecture:
@@ -353,12 +352,11 @@ https://dl.bas-soft.eu/
 
 Інсталятор підтримує:
 
-- Ubuntu 22.04
+- Ubuntu 22.04     (you need choose manual TimeZone ! Europe/Kiev)
 - Ubuntu 24.04
 - Ubuntu 26.04
 - Linux Mint 21.x
 - Linux Mint 22.x
-- Debian 11
 - Debian 12
 - Debian 13 (Trixie)
 
