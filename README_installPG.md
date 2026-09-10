@@ -64,7 +64,6 @@ Steps to Proceed:
 Usage & CLI Options
 
 Make the script executable and run it with sudo:
-Bash
 
 chmod +x install_pg.sh
 sudo ./install_pg.sh
@@ -101,7 +100,8 @@ What the Script Does Step-by-Step
 
         shared_preload_libraries = 'online_analyze,plantuner'
 
-        Sets md5 authentication in pg_hba.conf.
+        Sets md5 authentication in pg_hba.conf only local host!!! 
+      !!!  If you need to install md5 for 127.0.0.1 and change other settings - stop the PostgreSQL service and make changes to the file /etc/postgresql/{vers.PG}/pgpg_hba.conf  yourself, then start PostgreSQL again.
 
     User Provisioning: Prompts for passwords to secure the postgres superuser and creates the dedicated bafadmin administrator role.
 
@@ -208,7 +208,8 @@ sudo ./install_pg.sh
 
         shared_preload_libraries = 'online_analyze,plantuner'
 
-        Переводить автентифікацію в pg_hba.conf на md5.
+       !!! Переводить автентифікацію в pg_hba.conf на md5.
+        !!! Якщо вам потрібно встановити md5 для 127.0.0.1 та змінити інші налаштування – зупиніть службу PostgreSQL та внесіть зміни до файлу /etc/postgresql/{vers.PG}/pgpg_hba.conf самостійно, а потім знову запустіть PostgreSQL.
 
     Налаштування користувачів: Запитує пароль для суперкористувача postgres та створює адміністратора bafadmin із правами SUPERUSER CREATEDB CREATEROLE.
 
