@@ -13,7 +13,7 @@ Key Features & Requirements
 
         Ubuntu: 22.04 LTS, 24.04 LTS (and compatible versions)
 
-        Debian: 11 (Bullseye), 12 (Bookworm), 13 (Trixie)
+        Debian: 12 (Bookworm), 13 (Trixie)
 
         Linux Mint: 21.x, 22.x (automatically mapped to Ubuntu bases)
 
