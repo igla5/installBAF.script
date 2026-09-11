@@ -150,7 +150,7 @@ sudo ./install-baf --force-setup
 Allow installation of a BAS version older than the currently installed version.
 
 ```bash
-sudo ./install-baf-pub --downgrade
+sudo ./install-baf --downgrade
 ```
 
 The installer will still require confirmation before performing a downgrade when applicable.
