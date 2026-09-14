@@ -1,6 +1,6 @@
 ENGLISH
 
-These scripts are designed for installation on fresh OS of *.deb family (Supported operating systems: Ubuntu: 22.04 LTS, 24.04 LTS (and compatible versions), Debian: 11 (Bullseye), 12 (Bookworm), 13 (Trixie), Linux Mint: 21.x, 22.x (automatically connected to Ubuntu bases)
+These scripts are designed for installation on fresh OS of *.deb family (Supported operating systems: Ubuntu: 22.04 LTS, 24.04 LTS, 26.04 LTS (and compatible versions), Debian: 11 (Bullseye), 12 (Bookworm), 13 (Trixie), Linux Mint: 21.x, 22.x (automatically connected to Ubuntu bases)
 Supported architecture: only amd64 (x86_64) !!!
 
 1. To get started, it is advisable to create directories ~/install/installBAF/ and ~/install/installPostgre/ in the directory of the user on whose behalf the script will be run (sudo or root).
@@ -12,7 +12,7 @@ Supported architecture: only amd64 (x86_64) !!!
 
 UKRAINE
 
-Ці скрипти призначені для встановлення на свіжі ОС сімейства *.deb (Підтримувані операційні системи: Ubuntu: 22.04 LTS, 24.04 LTS (та сумісні версії), 12 (Bookworm), 13 (Trixie), Linux Mint: 21.x, 22.x (автоматично підключаються до баз Ubuntu)
+Ці скрипти призначені для встановлення на свіжі ОС сімейства *.deb (Підтримувані операційні системи: Ubuntu: 22.04 LTS, 24.04 LTS, 26.04 LTS (та сумісні версії), 12 (Bookworm), 13 (Trixie), Linux Mint: 21.x, 22.x (автоматично підключаються до баз Ubuntu)
 Підтримувана архітектура: тільки amd64 (x86_64) !!!
 
 1. Для початку роботи бажано створити каталоги ~/install/installBAF/ та ~/install/installPostgre/ в каталозі користувача, від імені якого буде виконуватися скрипт (sudo або root).
